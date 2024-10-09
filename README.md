@@ -58,3 +58,6 @@ Some aspects of this publication were developed with the assistance of ChatGPT, 
 
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+If you use or share this work, please give appropriate credit to: John Majerus.
+
