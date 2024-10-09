@@ -53,9 +53,12 @@ While the proposed system introduces valuable features, certain challenges repre
 - **Ambiguous Logic Changes**: Detecting changes in complex code blocks with low confidence but potentially high significance offers an opportunity to develop smarter heuristics or machine learning models that can better predict the true impact of ambiguous changes.
 
 ## Potential Extensions
-While this system is primarily designed for diff tools, the core concept of using **confidence** and **significance scores** with visual indicators has broader potential. In particular, this concept could be extended to **AI-driven tools** where confidence and significance play a role in improving interpretability. For instance, AI models used in natural language processing (NLP), machine learning, and decision-making could apply similar scoring systems to help users understand both how confident the AI is in its outputs and how significant those outputs are to the overall task.
 
-However, this document remains focused on the **original use case** in diff tools, where the visualization of confidence and significance provides immediate value for developers reviewing changes in large or complex codebases.
+While this system is primarily designed for diff tools, the core concept of using **confidence** and **significance scores** with visual indicators has broader potential. In particular, this concept could be extended to the following areas:
+
+- **AI-driven tools** where confidence and significance play a role in improving interpretability. For instance, AI models used in natural language processing (NLP), machine learning, and decision-making could apply similar scoring systems to help users understand both how confident the AI is in its outputs and how significant those outputs are to the overall task.
+  
+- **Electronic Medical Records (EMRs)**: Another important application is in the management of **electronic medical records**. By highlighting important edits, corrections, and addendums in clinical documents, this system could improve **awareness of relevant updates** for healthcare providers. Further possibilities for integrating **variations on this system** into EMR workflows, such as timeline views, change summaries, and audit logs, **may be explored** in a forthcoming document.
 
 ## Conclusion
 This publication introduces a system for improving the accuracy and usability of diff tools by applying both **confidence** and **significance** scores to changes. The dual-layer visualization, with color indicating confidence and intensity representing significance, enables developers to focus on the most important changes while filtering out irrelevant ones. While the core innovation is aimed at improving diff tools, the principles outlined here may have broader applications in fields such as AI and data analysis.
