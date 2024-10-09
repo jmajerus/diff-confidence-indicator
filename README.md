@@ -42,6 +42,16 @@ The system differentiates between formatting/whitespace changes and logic-alteri
 - **Code Logic Impact**: Changes that alter the logic of the code (e.g., conditionals, loops, or variable assignments) receive a high significance score.
 - **Scope and Context**: A change affecting a major function or module is assigned a higher significance than a change in a less critical part of the code.
 
+### Limitations and Considerations
+
+While the proposed system introduces valuable features, certain challenges represent opportunities for further innovation:
+
+- **Syntax-Aware Parsing**: Handling block-closing syntax across different languages presents an opportunity for future refinement. Accurately assessing the significance of these changes could inspire new parsing techniques that better handle scope and logic in various programming environments.
+
+- **Contextual Awareness**: Identifying the most critical parts of a codebase dynamically is an ongoing challenge. Future enhancements could involve more advanced methods for detecting key functions and dependencies, allowing for more accurate assessments of code significance.
+
+- **Ambiguous Logic Changes**: Detecting changes in complex code blocks with low confidence but potentially high significance offers an opportunity to develop smarter heuristics or machine learning models that can better predict the true impact of ambiguous changes.
+
 ## Potential Extensions
 While this system is primarily designed for diff tools, the core concept of using **confidence** and **significance scores** with visual indicators has broader potential. In particular, this concept could be extended to **AI-driven tools** where confidence and significance play a role in improving interpretability. For instance, AI models used in natural language processing (NLP), machine learning, and decision-making could apply similar scoring systems to help users understand both how confident the AI is in its outputs and how significant those outputs are to the overall task.
 
